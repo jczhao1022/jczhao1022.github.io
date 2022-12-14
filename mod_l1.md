@@ -10,9 +10,9 @@ $$
 #### 迭代格式
 迭代格式为
 
-```math
+$$
 (I + \tilde{A}^{\top}\tilde{A})z^{k+1}=(I - \tilde{A}^{\top}\tilde{A})|z^k|+\tilde{A}^{\top}b,
-```
+$$
 
 其中
 
