@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-[TOC]
-
 ### 算法简述
 #### 目标函数
 $$
@@ -37,11 +35,11 @@ $c$ 是全一的行向量。
 $A\in\mathbb{R}^{32\times64}$,由MATLAB函数randn生成。真解$\hat x$为由MATLAB函数sprand生成稀疏度为0.1的随机向量。
 
 * 初值为零向量。
-![相对残差](./figure/mod_l1/RES_test1.png "相对残差")
-![相对误差](./figure/mod_l1/ERR_test1.png "相对误差")
+![相对残差](figure/mod_l1/RES_test1.png "相对残差")
+![相对误差](figure/mod_l1/ERR_test1.png "相对误差")
 * 初值为$A^{\top}d$,其中$d$为全1向量。
-![相对残差](./figure/mod_l1/RES_test2.png "相对残差")
-![相对误差](./figure/mod_l1/ERR_test2.png "相对误差")
+![相对残差](figure/mod_l1/RES_test2.png "相对残差")
+![相对误差](figure/mod_l1/ERR_test2.png "相对误差")
 ##### 小规模欠定
 $A\in\mathbb{R}^{64\times32}$,由MATLAB函数randn生成。真解$\hat x$为由MATLAB函数sprand生成稀疏度为0.1的随机向量。
 
