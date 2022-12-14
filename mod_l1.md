@@ -4,8 +4,10 @@ layout: default
 ### 算法简述
 #### 目标函数
 $$
+\begin{aligned}
 \min \|x\|_1^2+\|Ax-b\|_2^2,\\
 \text{s.t. } x\geq0.
+\end{aligned}
 $$
 #### 迭代格式
 迭代格式为
