@@ -10,6 +10,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [nonngetive mod l1 算法](./mod_l1.html).
 
+[深度NMF](./SurveyDNF.html).
 ```
 The world breaks everyone and afterward many are strong at the broken places.
 
